@@ -1,0 +1,45 @@
+@relation malaria-weka.filters.unsupervised.attribute.Remove-R1
+
+
+
+@attribute '  fever ' numeric
+
+@attribute ' headache  ' numeric
+
+@attribute 'nausea ' numeric
+
+@attribute ' vomiting' numeric
+
+@attribute '  class' {N,P}
+
+
+
+@data
+
+1,0,0,1,?
+0,1,1,0,?
+1,1,0,1,?
+1,0,0,0,?
+0,0,0,0,?
+1,1,1,1,?
+0,1,1,1,?
+1,1,0,0,?
+1,1,0,0,?
+1,0,1,0,?
+1,1,1,0,?
+0,1,0,1,?
+0,0,0,1,?
+0,1,0,0,?
+0,0,1,0,?
+1,1,0,1,?
+0,1,0,0,?
+1,1,0,1,?
+0,0,0,1,?
+1,1,1,0,?
+1,0,1,1,?
+1,1,1,1,?
+1,0,0,1,?
+1,0,0,1,?
+1,1,0,0,?
+
+
